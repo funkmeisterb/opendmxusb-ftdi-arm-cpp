@@ -24,6 +24,7 @@ if (WIN32)
   # Print a message to confirm Windows build configuration
   message(STATUS "Building for Windows")
 elseif (UNIX)
+  # Raspberry pi
   link_directories(/usr/lib/arm-linux-gnueabihf)
   target_link_libraries(${PROJECT_NAME} /usr/lib/arm-linux-gnueabihf/libftdi.so) # Hardcoded for now
   

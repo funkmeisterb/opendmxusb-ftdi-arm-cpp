@@ -9,13 +9,13 @@ This project is an effort to control the USB interface using C++ code.
 
 ## Prerequisites
 
-### Linux
+### Raspberry Pi Linux ARM
 
 `sudo apt-get install cmake libftdi-dev`
 
 ### Windows
 
-TBD
+https://www.intra2net.com/en/developer/libftdi/download.php
 
 ## Objective
 
