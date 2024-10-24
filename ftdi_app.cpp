@@ -1,5 +1,6 @@
 #include <iostream>
-#include <ftdi.h>
+#include <ftdi.h> // Linux
+//#include <ftd2xx.h> // Windows
 
 int main() {
     struct ftdi_context ftdi;
